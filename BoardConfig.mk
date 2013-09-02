@@ -33,3 +33,5 @@ TARGET_BOARD_INFO_FILE ?= device/samsung/d2tmo/board-info.txt
 # Kernel
 TARGET_KERNEL_CONFIG        := cyanogen_d2att_defconfig
 
+# Enable dalvik startup with a low memory footprint
+TARGET_ARCH_LOWMEM := true 
