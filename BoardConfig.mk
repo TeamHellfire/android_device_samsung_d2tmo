@@ -38,4 +38,4 @@ TARGET_ARCH_LOWMEM := true
 
 
 # Set meta data to use older recoverys 
-SKIP_SET_METADATA := true
+USE_SET_METADATA := false
